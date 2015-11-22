@@ -1,0 +1,11 @@
+---
+layout: post
+title:  Photographic Dictionary
+date:   2015-11-19 05:24:42 +1100
+permalink: /projects/photodir/
+---
+
+<a href="https://photographicdictionary.com" rel="nofollow"><img src="https://photographicdictionary.com/images/photo-logo.png"></a>
+
+<a href="https://photographicdictionary.com" rel="nofollow">Photographic dictionary</a> and the sister site <a href="http://videographicdictionary.com" rel="nofollow">Videographic dictionary</a> are sites illustrating common words with photos. 
+
