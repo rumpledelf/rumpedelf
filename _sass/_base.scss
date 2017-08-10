@@ -8,7 +8,8 @@ dl, dd, ol, ul, figure {
     padding: 0;
 }
 
-
+$spacing-unit: 24px;
+$brand-color: #00ce6c;
 
 /**
  * Basic styling
@@ -160,9 +161,11 @@ pre {
     max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
     margin-right: auto;
     margin-left: auto;
-    padding-right: $spacing-unit;
-    padding-left: $spacing-unit;
+    padding: 0 $spacing-unit/2;
+    background-color: white;
+    overflow: hidden;
     @extend %clearfix;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
 
     @include media-query($on-laptop) {
         max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));

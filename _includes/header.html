@@ -1,7 +1,8 @@
 <header class="site-header">
 
-  <div class="wrapper">
+  <div class="header-wrapper">
 
+    <img class="avatar" src="/avatar-white.png">
     <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
 
     <nav class="site-nav">
@@ -13,18 +14,8 @@
         </svg>
       </a>
 
-      <div class="trigger">
-        {% for my_page in site.pages %}
-          {% if my_page.title %}
-          <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
-          {% endif %}
-        {% endfor %}
-      </div>
     </nav>
 
   </div>
 
 </header>
-<div class="banner">
-  <img src="/banner.jpg">
-</div>

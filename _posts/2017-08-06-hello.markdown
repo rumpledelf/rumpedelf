@@ -1,0 +1,7 @@
+---
+layout: post
+title:  Welcome
+date:   2017-08-06 05:24:42 +1100
+---
+
+Yeah I'm going to write something here but got distracted by css and stuff, nothing to see here, moving right along

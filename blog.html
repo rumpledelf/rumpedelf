@@ -1,12 +1,14 @@
 ---
 layout: default
-title: Projects
-permalink: /projects/
+title: Blog
+permalink: /blog/
 ---
 
 <div class="home">
 
-  <h1 class="page-heading">Projects</h1>
+  <h1 class="page-heading">Blog</h1>
+
+  <p>Just some ramblings about things and stuff, very much not tech related.</p>
 
   <ul class="post-list">
     {% for post in site.posts %}
@@ -14,6 +16,7 @@ permalink: /projects/
         <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
+        <span class="date">{{ post.date | date: "%d %B %Y" }}</span>
         {{ post.content }}
       </li>
     {% endfor %}
