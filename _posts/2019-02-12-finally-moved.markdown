@@ -10,6 +10,6 @@ The second half of last year was quite a bad time in my life and I ended up with
 
 After 4 weeks I caved and adopted a cat from a local rescue, which puts me firmly on the path to becoming an eccentric cat lady in the bush. I have decided I have a $80 a week budget for plants from the internet and boy am I going to make sure I spend it every week. The garden looks much nicer now I'm actually here to look after it.
 
-<img src="../bushcar.jpg">
+<img src="/bushcar.jpg">
 
 But the biggest change is I now have a big white 4WD, which fits in perfectly on my street.
