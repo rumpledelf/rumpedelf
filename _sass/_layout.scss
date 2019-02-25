@@ -152,6 +152,7 @@
 
     > li {
         margin-bottom: $spacing-unit;
+        clear: both;
     }
 }
 
@@ -244,4 +245,12 @@ ul.contact-list {
       color: $grey-color;
     }
   }
+}
+
+.thirds {
+    @media (min-width: 512px) {
+        width: 30%;
+        float: left;
+        margin: 1.5%;
+    }
 }
