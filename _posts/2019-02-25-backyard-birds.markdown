@@ -12,6 +12,11 @@ Apostle Birds<br/>
 <small>Photo - own</small></a>
 </div>
 <div class="thirds">
+<a href="http://www.birdlife.org.au/bird-profile/noisy-miner"><img src="/images/noisyminer.jpg">
+Noisy Miner<br/>
+<small>Photo - http://www.birdlife.org.au</small></a>
+</div>
+<div class="thirds">
 <a href="http://www.birdlife.org.au/bird-profile/grey-butcherbird"><img src="/images/greybutcherbird.jpg">
 Grey Butcherbird<br/>
 <small>Photo - http://www.birdlife.org.au</small></a>
@@ -19,6 +24,11 @@ Grey Butcherbird<br/>
 <div class="thirds">
 <a href="http://www.birdlife.org.au/bird-profile/white-browed-babbler"><img src="/images/whitebrowedbabbler.jpg">
 White Browed Babbler<br/>
+<small>Photo - http://www.birdlife.org.au</small></a>
+</div>
+<div class="thirds">
+<a href="http://www.birdlife.org.au/bird-profile/willie-wagtail"><img src="/images/williewagtail.jpg">
+Willie Wagtail<br/>
 <small>Photo - http://www.birdlife.org.au</small></a>
 </div>
 <div class="thirds">
