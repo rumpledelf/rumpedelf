@@ -153,6 +153,9 @@
     > li {
         margin-bottom: $spacing-unit;
         clear: both;
+        margin-top: $spacing-unit;
+        padding-top: $spacing-unit;
+        border-top: 1px solid $grey-color-light;
     }
 }
 
@@ -166,6 +169,12 @@
     font-size: 24px;
 }
 
+.post-list img,
+.post img {
+    padding: 3px;
+    border: 1px solid $grey-color-light;
+    box-shadow: 1px 2px 5px rgba(0,0,0,0.1);
+}
 
 
 /**
@@ -248,9 +257,22 @@ ul.contact-list {
 }
 
 .thirds {
+    small {
+        color: $grey-color;
+    }
+    h5 {
+        color: $text-color;
+        margin: $spacing-unit/4 0 0 0;
+        font-size: $base-font-size*1.1;
+    }
+    margin: $spacing-unit $spacing-unit/2;
     @media (min-width: 512px) {
-        width: 30%;
+        width: 33.33%;
         float: left;
-        margin: 1.5%;
+        margin: $spacing-unit/2 0 $spacing-unit; 
+        img {
+            width: 219px;
+            height: 136px;
+        }
     }
 }
