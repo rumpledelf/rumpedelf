@@ -3,7 +3,7 @@
  */
 .site-header {
     border-top: 5px solid $grey-color-dark;
-    border-bottom: 1px solid $grey-color-light;
+    border-bottom: 1px solid $light-green;
     min-height: 56px;
 
     // Positioning context for the mobile navigation icon
@@ -15,13 +15,22 @@
     font-weight: 300;
     line-height: 56px;
     letter-spacing: -1px;
+    position: relative;
     margin-bottom: 0;
-    float: left;
-
     &,
     &:visited {
         color: $grey-color-dark;
     }
+    img {
+      height: 140px;
+    }
+}
+
+.avatar {
+    float: right;
+    height: 110px;
+    margin: 0 0 0px 10px;
+    border: 1px solid $grey-color-light;
 }
 
 .site-nav {
@@ -102,15 +111,9 @@
 /**
  * Site header/footer
  */
-.avatar {
-  border: 1px solid $grey-color-light;
-  float: left;
-  margin-right: $spacing-unit;
-  height: 70px;
-}
 
 .site-footer {
-    border-top: 1px solid $grey-color-light;
+    border-top: 1px solid $light-green;
     padding: $spacing-unit 0;
 }
 
@@ -141,8 +144,8 @@
  * Page content
  */
 .page-content {
-    padding: $spacing-unit 0;
-    background-color: whitesmoke;
+    padding: $spacing-unit/2 0;
+    background-color: $light-purple;
 
 }
 
