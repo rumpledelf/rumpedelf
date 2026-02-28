@@ -92,15 +92,15 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-    color: $light-green;
+    color: $dark-green;
     text-decoration: none;
 
     &:visited {
-        color: darken($light-green, 15%);
+        color: darken($dark-green, 15%);
     }
 
     &:hover {
-        color: $dark-green;
+        color: darken($dark-green, 15%);
         text-decoration: underline;
     }
 }
